@@ -1,0 +1,67 @@
+/* Estilos da pagina devstars */
+
+main h3 {
+    font-size: 1.2em;
+}
+
+
+main h1 {
+    margin: 40px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+
+main .ranking {
+    border-radius: 10px; 
+    border: 5px double #25cbd3;
+    width: 90%;
+    height: 400px;
+}
+
+
+.table-pts, th, td {
+    border: 1px solid #5e49ff;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: left;
+    margin: auto;
+}
+
+
+.table-pts th, td {
+    width: 90px;
+    height: 20px;
+}
+
+
+.table-pts th:hover {
+    background-color: #3bd42d
+}
+
+
+.table-pts td {
+    color: #3bd42d
+}
+
+
+.responsive {
+    overflow-x: auto;
+}
+
+
+@media screen and (min-width: 992px) {
+    .ranking {
+        width: 80% !important;
+        height: 650px !important;
+    }
+
+    .table-pts, th, td {
+        text-align: center;
+    }
+    
+    .table-pts th, td {
+        width: 170px;
+    }
+}
+
